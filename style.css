@@ -1,0 +1,123 @@
+body{
+  font-family: 'Red Hat Display', sans-serif;
+  margin:0;
+  padding:0;
+  background-color: hsl(225, 100%, 94%);
+  background-image:url("images/pattern-background-desktop.svg");
+  background-repeat: repeat-x;
+}
+
+/*---------------------Card Styling-------------------*/
+.card{
+
+  border-radius:20px;
+  background-color: #ffff;
+  width:450px;
+  height: 600px;
+  margin: 50px auto;
+
+}
+.img{
+  width:450px;
+  height:200px;
+  background: url("images/illustration-hero.svg");
+  border-top-left-radius:20px;
+  border-top-right-radius: 20px;
+}
+
+.title-text{
+  font-weight: 900;
+  font-size:1.4rem;
+  text-align:center;
+  color: hsl(223, 47%, 23%);
+  margin-bottom:10px;
+}
+.paragraph{
+  font-size:16px;
+  text-align:center;
+  font-weight:300;
+  color:gray;
+  width:300px;
+  height: 70px;
+  margin: 0 auto;
+}
+/*----------------Price Tag --------------------*/
+.price{
+  font-size: 16px;
+  font-weight:  700;
+  color: hsl(223, 47%, 23%);
+  background-color: hsl(225, 100%, 98%);
+  border-radius:7px;
+  width:350px;
+  height:100px;
+  margin: 10px 50px;
+}
+.music-icon{
+  float: left;
+  margin:25px 20px 25px;
+}
+
+.plan-price{
+  color:gray;
+  font-weight: 500;
+  margin:0;
+  position:relative;
+  bottom:12px;
+}
+
+.plan-name{
+  padding:25px 0 0;
+  margin:0;
+}
+.link{
+  margin: 0;
+  position: relative;
+  bottom:60px;
+  left:275px;
+  font-size:14px;
+  color: hsl(245, 75%, 52%);
+}
+.link:hover{
+  color:hsl(245, 75%, 70%);
+}
+
+
+/*--------------Button ------------*/
+
+button{
+  background-color: hsl(245, 75%, 52%);
+  color:#ffff;
+  border-radius:10px;
+  border: none;
+  font-weight:700;
+  font-size: 13px;
+  width:350px;
+  height:50px;
+  margin:12px 50px 10px;
+
+}
+
+button:hover{
+  background-color: hsl(245, 75%, 70%);
+}
+
+.cancel{
+  color: gray;
+  font-size: 14px;
+  text-align:center;
+}
+.cancel:hover{
+  color:hsl(223, 47%, 23%);
+}
+
+
+
+/* --------------------footer styling------------------ */
+.attribution{
+   font-size: 11px;
+   text-align: center;
+}
+
+.attribution a{
+   color: hsl(228, 45%, 44%);
+}
